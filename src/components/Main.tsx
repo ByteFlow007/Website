@@ -29,23 +29,24 @@ function Main() {
         </video>
       </div>
 
-      <div className="absolute bottom-10 right-0 w-1/2 flex justify-center">
+      <div className="absolute bottom-10 right-0  flex justify-center">
         <img
+          id="image"
           src={Bg}
-          className="hover:scale-105 transition ease-in-out duration-200 slideIn animate-slide-in"
+          className="hover:scale-105 transition  ease-in-out duration-200 slideIn animate-slide-in"
         />
       </div>
 
       {/* Partition */}
       <div className="flex flex-col w-full z-50">
-        <div className="self-center flex gap-7 mt-10 animate-slide-slideInHeader">
+        <div className="heading self-center flex gap-7 mt-10 animate-slide-slideInHeader">
           <div>
-            <p className=" underline underline-offset-8 font-bold text-5xl sm:text-7xl lg:text-9xl ">
+            <p className=" underline underline-offset-8 font-bold  ">
               Byte
             </p>
           </div>
-          <div className="pb-8 pl-5 pr-7 -skew-x-12 basecolor rounded-tl-3xl rounded-tr-xl rounded-br-3xl rounded-bl-xl ">
-            <p className="text-white underline  font-bold text-5xl sm:text-7xl lg:text-9xl skew-x-12">
+          <div className="flowbox -skew-x-12 basecolor rounded-tl-3xl rounded-tr-xl rounded-br-3xl rounded-bl-xl ">
+            <p className="text-white underline  font-bold  skew-x-12">
               Flow
             </p>
           </div>
@@ -64,13 +65,13 @@ function Main() {
             websites tailored to help <br />
             your <a className="font-bold underline">BUSINESS</a>.
           </div>
-          <div className="flex gap-3  animate-slide-in2">
+          <div className="flex gap-3 bottombar animate-slide-in2">
             <button className="basecolor1 text-white text-2xl font-bold rounded h-fit w-fit px-7 py-3 self-end transition ease-in-out duration-200 hover:scale-110 ">
               About Us
             </button>
             <img
               src={Mobile}
-              className="hover:scale-105 transition ease-in-out duration-200"
+              className="hover:scale-105 bottombarimg transition ease-in-out duration-200"
             />
           </div>
         </div>
